@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SendDaMemez</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1 class="header">Send Da Memez</h1>
+  </header>
+
+  <form class="form" id="memeForm">
+    <label for="imageLink">Image URL</label>
+    <input type="text" id="imageLink" name="imageLink" placeholder="What is the URL of the image?" required>
+    <label for="topText">Text on Top</label>
+    <input type="text" id="topText" name="topText" placeholder="(Optional) Text on top portion of image">
+    <label for="bottomText">Text on Bottm</label>
+    <input type="text" id="bottomText" name="bottomText" placeholder="(Optional) Text on bottom portion of image">
+    <button class="btn" id="createBtn">Create</button>
+  </form>
+  <div class="main" id="main"></div>
+  <footer class="footer"><p>Copyright &copy; 2023 timsukamtoh</p></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
